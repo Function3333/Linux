@@ -1,0 +1,223 @@
+# 23.01.06
+
+## 학습내용
+1. constructor
+2. extends
+3. overriding
+4. constructor overloading
+5. super/this,  super()/this()
+6. int[][] a = new int[?][]
+
+
+### constructor
+"객체는 서로 다른 상태를 가진다", 현실세계를 구성하는 모든 객체들은 각자의 상태를 가진다 이러한 상태들은
+class에서 field와 behavior로 정의되고 인스턴스화를 통해 인스턴스로 생성된다. 
+이렇게 생성된 인스턴스들은 모두 class에 정해진 field와 behavior의 값대로 동일하게 초기화된다
+객체는 각자 다른 상태를 가지기때문에 이렇게 동일하게 생성된 인스턴스들의 값을 매번 바꿔주기에는 번거로움이 존재한다.
+이때 등장한 java의 oopl 기능이 constructor이며 constructor를 사용하여 편리하게 
+서로 다른 상태를 가진 객체들을 생성 할 수 있다.
+```
+class User01 {	
+	String name;
+	int javaLevel;
+
+	//생성자
+	public User01() {
+	}
+}
+```
+
+
+### extends
+oop는 여러 객체들이 가진 공통 속성을 일반화하여 상위의 클래스로 만들 수 있으며 
+생성된 상위 클래스의 속성을 하위 클래스들이 공유하고 구체화를 하여 다형성을 지원한다.
+이러한 oop의 기능을 지원하는 java oopl의 기술이 extends(상속)이다.
+이러한 상속 기능을 통해 상위 클래스의 field와 method를 사용 할 수 있고 상속받은 field와 method 외에 
+자신만의 field와 method를 구현하여 사용 할 수 있다.
+
+```
+//상위 클래스 name, age를 가짐
+public class Human{
+	String name;
+	int age;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+}
+```
+
+```
+//상위 class Human을 상속받는 Iam class
+public class Iam extends Human{
+	String job; // 상위 class의 field를 제외한 자신만의 field 사용 가능
+
+	public Iam() {
+	}
+	
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	public String getJob() {
+		return job;
+	}
+	
+	public static void main(String[] args) {
+		Iam iam = new Iam();
+		
+		iam.setName("LEE"); //상위 class를 공유받기에 상위 Human class의 Name을 사용 가능
+		iam.setAge(27); //상위 class를 공유받기에 상위 Human class의 Age를 사용 가능
+		iam.setJob("stuednt"); 
+	}
+}
+```
+
+### overriding
+A라는 핸드폰을 만들고 해당 A 핸드폰을 상속받아 기능을 추가하여 b, c, d, e, ...등의 여러개의 핸드폰 제품을 개발하였다. 나중에 알고보니 A 핸드폰의 
+하나의 기능에서 에러가 발생했다 이 경우에 에러를 고치기 위해 A 상속관계를 끊고 다시 새로운 상위의 핸드폰을 만들려면 많은 시간과 비용이 필요하다.
+이러한 문제를 해결하기위해 java oopl에서 등장한 기술이 overriding이다. 하위 클래스에서 상속받은 메서드를 재정의하여 상위 클래스의 메서드를 사용하는 것이
+아닌 자신이 구현한 메서드를 사용하는것이다. 
+
+```
+class BusCharge {
+	String section;
+
+	public BusCharge(String str) {
+		section = str;
+	}
+
+	public void information() {
+		System.out.println("BusCharge information");
+	}
+
+	public void charge() {
+		System.out.println("BusCharge busCharge");
+	}
+}
+
+class Student extends BusCharge {
+	public Student() {
+		super("student");
+	}
+
+	public void charge() {
+		System.out.println("student charge"); //오버로드된 클래스를 우선 호출한다
+	}
+}
+
+public class Display{
+	public static void main(String[] args) {
+		Student student = new Student();
+		
+		student.information();
+		System.out.println(student.section);
+		student.charge();
+	}
+}
+```
+
+
+### constructor overloading
+다형성을 지원하는 oopl 기술인 overloading을 통해서 보다 편리하게 객체의 서로 다른 상태를 보장할 수 있다.
+생성자를 여러개 선언하여 상황에 따라 변경하고싶은 필드만 변경 가능하다.
+```
+class User03 
+{
+	String name;
+	int javaLevel;
+
+	//기본 생성자
+	public User03() {
+	}
+	// name만을 초기화 해주는 생성자
+	public User03(String name) {
+		this.name = name;
+	}
+	// javaLevel만을 초기화 해주는 생성자
+	public User03(int javaLevel) {
+		this.javaLevel = javaLevel;
+	}
+	// name, javaLevel 모두 초기화 해주는 생성자
+	public User03(String name, int javaLevel) {
+		this.name = name;
+		this.javaLevel = javaLevel;
+	}	
+}
+```
+
+
+
+### super./this., super(),this()
+java에서 .(dot) 키워드는 인스턴스에 접근한다는 의미이다.
+따라서 super.은 상속받은 상위 인스턴스에 접근하며 this.은 자기 자신의 인스턴스에 접근한다
+super() 메서드는 상속받은 클래스의 생성자에 접근을하며 this() 메서드는 자기 자신의 생성자에 접근한다 둘 다 메서드이므로 overloading을 통해 다양한 생성자에 접근이 가능하다.
+
+```public class Employee{
+	
+	String part, name;
+	int age, baseSalary;
+
+	public Employee() {
+	}
+
+	public Employee(String str1) {
+		name = str1;
+	}
+
+	public Employee(String str1, String str2) {
+		this(str1); //자신 클래스의 Employee(String str1)를 실행
+		part = str2;
+		System.out.println("Employee name, part constructer");
+	}
+}
+```
+
+```
+public class Manager extends Employee{
+	int salary;
+
+	public Manager() {
+	}
+
+	public Manager(String str) {
+		super(str); //super(str)을 통해 상위 클래스의 Employee(String str1)를 실행
+	}
+	
+	public Manager(String str1, String str2) {
+		this(str1); //자신 클래스의 public Manager(String str)를 실행
+		part = str2; 
+	}
+
+	public Manager(String str1, String str2, int i) {
+		super(str1, str2); //상위 클래스의 Employee(String str1, String str2)를 실행
+		age = i;
+	}
+}
+
+```
+
+### int[][] a = new int[2][]
+```
+int[][] a = new int[2][]
+```
+오늘 시험중에 나온 문제였고 당연히 Array를 생성할때 당연히 미리 모든 공간을 설정해 놓아야한다 생각하여 틀린 문법인줄 알았다.
+``` 
+1). int[][] a // 데이터 타입이 int[][]인 변수 a를 선언한다.
+2). new int[2][] // new 키워드를 통해 길이가 2인 int[2] 배열을 생성한다, 해당 배열의 각 원소가 가지는 배열의 크기는 아직 정의하지 않았기에 생성하지 않는다
+3) int[][] a = new int[2][] // new를 통해 생성한 길이가 2인 배열 주소값을 a에 할당한다, a가 가지는 배열의 크기는 이미 정해졌기에 할당하여도 문제가 생기지 않는다.
+4. a[1] = new int[2] // 길이가 2인 int배열을 생성하여 a[1]의 공간에 주소값을 할당한다.
+``` 
+이처럼 java는 배열의 배열 구조를 가지기에 위 처럼 선언하여도 컴파일시 문제가되지 않는다.
