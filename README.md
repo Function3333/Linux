@@ -1,14 +1,9 @@
-# Java Web BackEnd Study
-
-
-
-## Study Log(밑줄 문법 찾아보기)
-
+# 📅 Study Log
 
 
 ## Linux
 
-### 22.12.26(https://github.com/Function3333/NaverCloudCamp/blob/main/Linux/12.26.md)
+### [22.12.26](https://github.com/Function3333/NaverCloudCamp/blob/main/Linux/12.26.md)
 
 1. 리눅스 단축키
 2. 리눅스를 사용하여 파일 다루기
