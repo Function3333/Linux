@@ -1,4 +1,4 @@
-## 📅 Study Log(밑줄 문법 찾아보기)
+## 📅 Study Log
 
 
 
@@ -55,7 +55,7 @@
 2. refernce
 3. new
 
-### [23.01.05](https://github.com/Function3333/NaverCloudCamp/blob/main/Java/23.01.05.md
+### [23.01.05](https://github.com/Function3333/NaverCloudCamp/blob/main/Java/23.01.05.md)
 
 1. OOP
 2. Bean class, App class
