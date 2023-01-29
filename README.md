@@ -164,7 +164,7 @@
 3. Servlet
 4. WAS
 
-### [23.01.25](https://github.com/Function3333/NaverCloudCamp/blob/main/Servlet/23_01_25.md)
+### [23.01.25](https://github.com/Function3333/NaverCloudCamp/blob/main/Servlet/23.01.25.md)
 
 1. edu webApplication 만들기
 2. servlet life cycle
