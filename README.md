@@ -172,3 +172,19 @@
 4. Servlet 계층구조
 5. 절대경로, 상대경로
 6. HttpServletRequest setCharacterEncoding method
+
+
+### [23.01.26](https://github.com/Function3333/NaverCloudCamp/blob/main/Servlet/23.01.26.md)
+1. 복습
+2. relative url
+3. eclips wep app 구조
+4. VO, DAO
+5. Connection Pool
+6. Servlet Config
+
+
+### [23.01.27](https://github.com/Function3333/NaverCloudCamp/blob/main/Servlet/23.01.27.md)
+1. DataSource
+2. cookie
+3. session
+4. jsp container
