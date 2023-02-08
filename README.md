@@ -221,3 +221,7 @@
 
 
 ### [23.02.08](https://github.com/Function3333/NaverCloudCamp/blob/main/Servlet/23.02.07.md)
+1. ROWNUM
+2. 01 => 02 refactory 내용
+3. jsp EL(Expression Language)
+4. jsp EL ObjectScope
