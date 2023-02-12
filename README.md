@@ -225,3 +225,13 @@
 2. 01 => 02 refactory 내용
 3. jsp EL(Expression Language)
 4. jsp EL ObjectScope
+
+
+### [23.02.08](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.09.md)
+1. 형상관리
+2. git
+3. framework란
+4. Bean Container
+5. IOC
+6. constructor injection, setter injection
+
