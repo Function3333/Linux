@@ -237,3 +237,11 @@
 5. IOC
 6. constructor injection, setter injection
 
+### [23.02.13](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.13.md)
+1. ibatis/mybatis
+2. Log framework
+3. log framework(log4j)
+4. jdbc/mybatis null 입력
+5. jdbc/mybatis null 조회
+6. <setting name="callSettersOnNulls" value="true"/>
+
