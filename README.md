@@ -243,5 +243,5 @@
 3. log framework(log4j)
 4. jdbc/mybatis null 입력
 5. jdbc/mybatis null 조회
-6. "<setting name="callSettersOnNulls" value="true"/>"
+6. setting name="callSettersOnNulls" value="true
 
