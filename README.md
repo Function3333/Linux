@@ -245,3 +245,10 @@
 5. jdbc/mybatis null 조회
 6. setting name="callSettersOnNulls" value="true
 
+###[23.02.15](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.14.md)
+1. dynamic sql
+2. mybatis spring 
+3. ApplicationContext
+4. PropertyPlaceholderConfigurer
+5. ContextLoader
+
