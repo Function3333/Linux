@@ -252,3 +252,10 @@
 4. PropertyPlaceholderConfigurer
 5. ContextLoader
 
+### [23.02.16](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.16.md)
+1. AOP 용어
+2. InvocationHandler
+3. Spring AOP
+4. Spring AutoProxy
+5. Spring AutoProxy Annotation
+
