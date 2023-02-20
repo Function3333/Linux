@@ -267,7 +267,7 @@
 5. Springframework Web Arch
 
 
-### [23.02.20](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.20.md
+### [23.02.20](https://github.com/Function3333/NaverCloudCamp/blob/main/SpringFramwork/23.02.20.md)
 1. Spring Web Controller 사용법
 2. default method
 3. interceptor
