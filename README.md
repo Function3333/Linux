@@ -287,7 +287,6 @@
 4. Ajax 동기, 비동기 전송
 
 ### [23.03.13] (https://github.com/Function3333/NaverCloudCamp/blob/main/React/23.03.13.md)
-# 23.03.13
 1. React
 2. JS DataType
 3. var, let, const 차이점
