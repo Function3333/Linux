@@ -327,7 +327,12 @@ Question
 
 Question
 Q1. Redis(Remote Dictionary Server) 
+
 Q2. Iaas, PaaS, Saas, AiaaS 
+
 Q3. VM, Container 
+
 Q4. GPU, CPU  
+
 Q5. IP대역, SubnetMask  
+
