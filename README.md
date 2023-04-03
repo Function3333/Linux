@@ -322,3 +322,12 @@ Question
 
 ## cloud
 ### [23.04.03](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.03.md)
+1. 가상화, 클라우드
+2. 실습
+
+Question
+Q1. Redis(Remote Dictionary Server)
+Q2. Iaas, PaaS, Saas, AiaaS
+Q3. VM, Container
+Q4. GPU, CPU 
+Q5. IP대역, SubnetMask
