@@ -342,8 +342,11 @@ Q5. IP대역, SubnetMask
 2. CDN    
 3. VPN    
 4. Object Storage     
-5. NAS    
+5. NAS     
+Q1. DNS 레코드 타입    
 
-Question    
-Q1. DNS 레코드 타입
-
+### [23.04.05](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.05.md)    
+1. 전가상화, 반가상화   
+2. Over Commit    
+3. Migration    
+Q1. HyperCall   
