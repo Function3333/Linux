@@ -337,19 +337,13 @@ Q4. GPU, CPU
 
 Q5. IP대역, SubnetMask  
 
-### [23.04.04](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.04.md)
+### [23.04.04](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.04.md)      
+1. Global Traffic Manager   
+2. CDN    
+3. VPN    
+4. Object Storage     
+5. NAS    
 
-1. Global Traffic Manager 
-
-2. CDN  
-
-3. VPN  
-
-4. Object Storage 
-
-5. NAS  
-
-Question  
-
+Question    
 Q1. DNS 레코드 타입
 
