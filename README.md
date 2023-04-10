@@ -354,7 +354,18 @@ Q1. HyperCall
 
 
 ### [23.04.10](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.10.md)    
-1. 전가상화, 반가상화   
-2. Over Commit    
-3. Migration    
-Q1. HyperCall   
+
+1. Object Storage, Archive Storage
+2. NAS
+3. NAS와  추가 스토리지 차이점
+4. ACG & NACL
+5. Load Balancer
+6. Application load balancer
+7. Network load balancer
+8. Network proxy load balancer
+9. NAT Gateway
+10. Cloud MySQL
+11. Cloud MSSQL
+12. Cloud Redis
+13. Hadoop Eco
+14. 메시징 시스템
