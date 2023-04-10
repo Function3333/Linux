@@ -350,3 +350,11 @@ Q1. DNS 레코드 타입
 2. Over Commit    
 3. Migration    
 Q1. HyperCall   
+
+
+
+### [23.04.10](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.10.md)    
+1. 전가상화, 반가상화   
+2. Over Commit    
+3. Migration    
+Q1. HyperCall   
