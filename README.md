@@ -353,6 +353,22 @@ Q1. HyperCall
 
 
 
+### [23.04.07](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.07.md)    
+
+1. Bare-Metal Server
+2. VDS(Virtual Dedicated Server)
+3. Kubernates
+4. BlockStorage
+5. HA(High Availability)
+6. 멀티존
+7. Serverless
+8. GPU
+9. HPC
+10. cloud MySQL 설정
+11. File System
+12. 중요사항
+
+
 ### [23.04.10](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.10.md)    
 
 1. Object Storage, Archive Storage
