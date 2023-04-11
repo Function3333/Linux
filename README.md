@@ -385,3 +385,11 @@ Q1. HyperCall
 12. Cloud Redis
 13. Hadoop Eco
 14. 메시징 시스템
+
+
+### [23.04.11](https://github.com/Function3333/NaverCloudCamp/blob/main/cloud/23.04.11.md)    
+1. Security
+2. File Safer
+3. AI & Application
+4. Architecture
+5. Cloud 아키텍처 접근법
